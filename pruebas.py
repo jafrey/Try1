@@ -1,0 +1,35 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+r = requests.post("http://api:8000/api/login", data={'username': 'administrador', 'password': 'Boludo-123'})
+print(r.status_code, r.reason)
